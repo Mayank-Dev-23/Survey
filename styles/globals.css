@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+
+
+.title{
+    display: flex;
+    justify-content: center;
+    font-size: 1.4rem;
+    font-family: Satisfy;
+    margin-bottom: 30px;
+
+}
+
+.survey{
+    display: flex;
+    justify-content: center;
+    font-size: 1.4rem;
+    font-family: satisfy;
+}
+
+.inputbox{
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    margin:  0 auto;
+
+}
+
+.inputbox input{
+    margin-bottom: 10px;
+    height:30px;
+    border-radius: 4px;
+    outline: none;
+    border: 1px solid rgb(219, 214, 214);
+   
+    background-color: rgba(128, 128, 128, 0.07);
+}
+
+
+.forgot{
+    display:flex;
+    justify-content: flex-end;
+    color : #107add;
+    cursor: pointer;
+}
+.container{
+    display:flex;
+    justify-content: center;
+    margin-top: 20px;
+
+}
+.button{
+    width:19rem;
+    height: 2rem;
+    cursor: pointer;
+    background-color: #4793f5;
+    outline: none;
+    border:none;
+    border-radius: 5px;
+}
+.button:hover{
+background-color: #2b85fa;
+
+
+}
+.main{
+    display:flex;
+    justify-content: center;
+align-items: center;
+margin-top: 40px;
+}
+
+.search > h1{
+font-family:satisfy;
+padding: 0 20px;
+}
+
+iframe{
+
+    max-width: 470px;
+
+}
+
+iframe::-webkit-scrollbar {
+    display: none;
+
+}
+
+iframe{
+    border-width: 0px;
+    width:640px;
+    height: 1387px;
+    border: 0px ;
+    
+
+
+
+}
