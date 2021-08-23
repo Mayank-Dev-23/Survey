@@ -2,7 +2,7 @@ import firebase from "firebase"
 import  "firebase/storage"
 
 const firebaseConfig = {
- apiKey: process.env.local;
+ apiKey: process.env.local,
  authDomain: "facebook-95bb2.firebaseapp.com",
  projectId: "facebook-95bb2",
  storageBucket: "facebook-95bb2.appspot.com",
